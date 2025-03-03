@@ -30,6 +30,6 @@ public class Reservation implements Serializable {
     private Etudiant etudiant ;
     @ManyToOne
     @JoinColumn(name = "chambre_id")  // Foreign key referencing the Chambre table
-    private Chambre chambre;  // Thi
+    private Chambre chambre;
 
 }
