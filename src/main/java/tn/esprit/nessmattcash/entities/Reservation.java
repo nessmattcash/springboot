@@ -22,7 +22,7 @@ public class Reservation implements Serializable {
 
     @Temporal(TemporalType.DATE)
 
-    private Date anneUniversitaire;
+    private Date anneeUniversitaire;
     private boolean estValide;
 
     @ManyToOne
